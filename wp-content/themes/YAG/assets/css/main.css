@@ -969,6 +969,7 @@ header .logo-menu-wrap .menu > ul > li .dropdown-content li a {
   color: #333333;
   font-size: 14px;
 }
+
 header .logo-menu-wrap .menu > ul > li .dropdown-content li:hover > a {
   color: #f05907;
   padding-left: 20px;

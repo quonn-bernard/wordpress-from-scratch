@@ -6,8 +6,17 @@
                 <div class="row">
                     <div class="col-md-8 col-full-width">
                         <div class="footer__description text-center">
-                            <a href="index.html"><img src="images/logo/footer-logo.png" alt="footer logo"></a>
-                            <p>We love who we are and we are very proud to be Curabitur sit amet magnaquam. Praesent in libero vel turpis</p>
+                        <?php
+                            if(has_custom_logo()){
+                                the_custom_logo();
+                            }else{
+                        ?>
+                        <a  href="<?php echo home_url('/');?>" >
+                            <strong class="h2"><?php bloginfo('name'); ?></strong>
+                        </a>
+                        <?php
+                    }
+                    ?>
                         </div>
                     </div>
                 </div>

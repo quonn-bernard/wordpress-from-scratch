@@ -17,7 +17,7 @@
 
                                     <div class="entry-date">
                                         <a href="#">
-                                            <?php get_the_date()?>
+                                            <?php echo get_the_date('F j, Y')?>
                                         </a>
                                     </div>
                                 </div>
