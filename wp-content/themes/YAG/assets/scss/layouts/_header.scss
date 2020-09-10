@@ -161,7 +161,7 @@ header{
         min-height: 80px;
     }
     .logo-menu-wrap .menu > ul > li {
-        padding: 30px 35px 28px;
+        padding: 20px 35px 18px;
     }
 }
 
@@ -169,7 +169,7 @@ header{
 @media #{$notebook-device}{
 	header{
 		.logo-menu-wrap{
-            min-height: 90px;
+            min-height: 70px;
 			.menu{
 				ul{
 					li{
