@@ -11,6 +11,7 @@ Text Domain: YAG
 
 */
 
-body{
-    
+.current_page_item,
+.current-menu-ancestor {
+	background-color: yellow;
 }

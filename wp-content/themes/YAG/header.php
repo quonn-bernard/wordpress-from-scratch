@@ -53,7 +53,7 @@
                                 the_custom_logo();
                             }else{
                         ?>
-                        <a class="d-inline"  href="<?php echo home_url('/');?>" >
+                        <a class="d-inline"  href="<?php echo home_url('/');?>" style="margin-top: 20px;" >
                             <strong class="d-inline"><?php bloginfo('name'); ?></strong>
                         </a>
                         <?php
