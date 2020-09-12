@@ -8,7 +8,7 @@
             
             <!-- Start slider item -->
             <div class="slider_item slider_style_two bg_overlay">
-                <div class="slider_bg_thumb bg-image" style="background-image: url(images/slider/2.jpg);"></div>
+                <div class="slider_bg_thumb bg-image" style="background-image: url(<?php the_field('banner_image'); ?>);"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-sm-10 col-xs-12">
@@ -28,6 +28,7 @@
                     <div class="row">
                         <div class="col-md-8 col-sm-10 col-xs-12">
                             <div class="slider_content text-white">
+                            
                                 <h1 class="slider_title">We Make Good <br>UX Design</h1>
                                 <p class="slider_subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry tandard dummy text ever since </p>
                             </div>
@@ -456,11 +457,11 @@ innovative & marketing expert.</h3>
     
     <?php get_footer( ) ?>
 
-    <?php
-        if( have_posts()){
+
+        <!-- if( have_posts()){
             while (have_posts()){
                 the_post();
                 get_template_part('partials/posts/content-excerpt', 'excerpt');
             }
         }
-    ?>
+     -->

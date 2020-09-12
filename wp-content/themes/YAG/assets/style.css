@@ -17,38 +17,55 @@
 	ScreenShot Section
 -----------------------------------------------
  */
+ .mb-30{
+    margin-bottom: 30px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+  }
+  .mt-50 {
+    margin-top: 50px;
+  }.mt-50{
+    margin-top: 50px 0;
+}
 .mb-85{
-    margin-bottom: 85px;
+    margin-bottom: 85px 0;
 }
 .mt-85{
-    margin-top: 85px;
+    margin-top: 85px 0;
 }
 .mb-92{
-    margin-bottom: 92px;
+    margin-bottom: 92px 0;
 }
 .mt-94{
-    margin-top:94px;
+    margin-top:94px 0;
 }
 .mt-103{
-    margin-top: 103px;
+    margin-top: 103px 0;
 }
 .mt-100{
-    margin-top: 100px;
+    margin-top: 100px 0;
 }
 .mt-110{
-    margin-top: 110px;
+    margin-top: 110px 0;
 }
 .mt-95{
-    margin-top:95px;
+    margin-top:95px 0;
 }
 .mb-110{
-    margin-bottom: 110px;
+    margin-bottom: 110px 0;
 }
 .mtb-100{
-    margin: 110px 0;
+    margin: 100px 0;
+}
+.mtb-60{
+    margin: 60px 0;
 }
 .mt-105{
-    margin-top:105px;
+    margin-top: 105px 0;
 }
 .pt-110{
     padding-top:110px;
@@ -83,3 +100,12 @@
 .mb-88{
     margin-bottom: 88px;
 }
+
+
+
+/*
+-----------------------------------------------
+	Home Page Program Boxes
+-----------------------------------------------
+ */
+
